@@ -14,12 +14,6 @@ class PropertyInjectedControllerTest {
     @Autowired
     PropertyInjectedController propertyInjectedController;
 
-   /* @BeforeEach
-    void setup() {
-        propertyInjectedController = new PropertyInjectedController();
-        propertyInjectedController.greetingService = new GreetingServiceImpl();
-    }*/
-
     @Test
     void hello() {
         System.out.println(propertyInjectedController.hello());
