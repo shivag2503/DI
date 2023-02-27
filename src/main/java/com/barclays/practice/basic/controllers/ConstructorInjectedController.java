@@ -1,7 +1,9 @@
 package com.barclays.practice.basic.controllers;
 
 import com.barclays.practice.basic.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
 
     private final GreetingService greetingService;
